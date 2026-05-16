@@ -1,0 +1,20 @@
+Reference,Description,Quantity,Value/Part Number,Notes
+U1,Arduino Uno R3,1,ATmega328P,Or Arduino Nano
+K1,5V Relay Module,1,SRD-05VDC-SL-C,Normally Open configuration
+K2,5V Relay Module,1,SRD-05VDC-SL-C,Normally Open configuration
+K3,5V Relay Module,1,SRD-05VDC-SL-C,Normally Open configuration
+U2,Voltage Sensor Module,1,0-25V DC Analog Sensor,ADC-based voltage divider board
+U3,RTC Module,1,DS3231,I2C real-time clock with battery backup
+R1,Resistor,1,10kΩ,Voltage divider (if custom sensor)
+R2,Resistor,1,47kΩ,Voltage divider (if custom sensor)
+C1,Capacitor,1,100nF,Bypass capacitor for sensor pin
+BAT1,CR2032 Battery,1,3V Coin Cell,For DS3231 RTC backup
+J1,Power Connector,1,DC Barrel Jack 5.5/2.1mm,5V input for Arduino
+J2,Screw Terminal,3,2-pin 5mm pitch,Load output terminals
+J3,Screw Terminal,1,2-pin 5mm pitch,AC/DC input for voltage sensor
+LCD1,16x2 LCD Display,1,HD44780 I2C,Optional – status display
+SW1,Push Button,1,Tactile Switch,Optional – manual reset
+LED1,LED Indicator,3,3mm Green/Red LED,Optional – relay status indicators
+—,Jumper Wires,—,Male-to-Male & Male-to-Female,For prototyping connections
+—,Breadboard,1,830-point,For prototyping
+—,PCB (optional),1,Custom/Veroboard,For final assembly
