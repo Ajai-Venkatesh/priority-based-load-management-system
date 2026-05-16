@@ -1,3 +1,4 @@
+![Banner](Circuit Diagram.png)
 # ⚡ Priority Based Load Management System
 
 > **3 Relay | 1 Voltage Sensor | Arduino-based Smart Load Switching**
